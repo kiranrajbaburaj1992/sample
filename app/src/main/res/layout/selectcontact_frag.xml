@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/viewpager_back"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#faf9f9"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/home_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/service_contact"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/headtext_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:gravity="center">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/cname"
+                    android:textColor="@color/black"
+                    android:hint="Your Name"
+                    android:padding="5dp"
+                    android:textSize="@dimen/normal_text_size"
+                    android:background="@drawable/edittext_back"
+                    android:layout_height="70dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/cmobile"
+                    android:textColor="@color/black"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:hint="Mobile Number"
+                    android:textSize="@dimen/normal_text_size"
+                    android:layout_height="70dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/button_background"
+                android:padding="5dp"
+                android:text="NEXT"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

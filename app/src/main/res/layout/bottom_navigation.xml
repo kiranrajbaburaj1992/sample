@@ -23,16 +23,16 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/bottom_image_width"
+                android:layout_height="@dimen/bottom_image_height"
                 android:id="@+id/bottom_homeicon"
                 android:background="@drawable/home_normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Home"
-                android:textSize="16dp"
+                android:text="@string/bottom_home"
+                android:textSize="@dimen/bottom_text_size"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -46,15 +46,15 @@
 
             <ImageView
                 android:id="@+id/bottom_beachicon"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/bottom_image_width"
+                android:layout_height="@dimen/bottom_image_height"
                 android:background="@drawable/beach_normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Beaches"
-                android:textSize="16dp"
+                android:text="@string/bottom_beaches"
+                android:textSize="@dimen/bottom_text_size"
                 android:textStyle="bold"/>
         </LinearLayout>
 
@@ -76,15 +76,15 @@
 
             <ImageView
                 android:id="@+id/bottom_activityicon"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/bottom_image_width"
+                android:layout_height="@dimen/bottom_image_height"
                 android:background="@drawable/activity_normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Activities"
-                android:textSize="16dp"
+                android:text="@string/bottom_activities"
+                android:textSize="@dimen/bottom_text_size"
                 android:textStyle="bold"/>
         </LinearLayout>
 
@@ -98,15 +98,15 @@
 
             <ImageView
                 android:id="@+id/bottom_accounticon"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/bottom_image_width"
+                android:layout_height="@dimen/bottom_image_height"
                 android:background="@drawable/account_normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Account"
-                android:textSize="16dp"
+                android:text="@string/bottom_account"
+                android:textSize="@dimen/bottom_text_size"
                 android:textStyle="bold"/>
         </LinearLayout>
     </LinearLayout>

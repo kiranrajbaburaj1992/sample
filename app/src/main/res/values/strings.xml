@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Aps</string>
+    <string name="app_name">Mmm Beach</string>
+    <string name="start">GET STARTED</string>
+    <string name="home_head">WELCOME TO THE ULTIMATE CYPRUS BEACH EXPERIENCE !</string>
+    <string name="service_liker">WHICH SERVICE WOULD YOU LIKE?</string>
+    <string name="service_beach">ON WHICH BEACH WILL YOU BE?</string>
+    <string name="service_type">ARE YOU IN THE MOOD FOR?</string>
+    <string name="service_time">WHAT TIME SUITS YOU THE MOST?</string>
+    <string name="service_dura">HOW LONG SHOULD A MASSAGE LAST?</string>
+    <string name="service_promo">DO YOU HAVE A GIFT\nOR PROMO CODE?</string>
+    <string name="service_contact">WE NEED YOU \nCONTACT DETAILS.</string>
+    <string name="service_dash">Book Service</string>
+    <string name="service_profile">CREATE YOUR\nPROFILE BY\nCOONECTING WITH</string>
+    <string name="spa_dash">Book Spa</string>Massage Booked
+    <string name="Massage_Booked">Massage Booked</string>
+    <string name="activity_dash">Activities</string>
+    <string name="beach_dash">Beaches</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_beaches">Beaches</string>
+    <string name="bottom_activities">Activities</string>
+    <string name="bottom_account">Account</string>
+    <string name="checkthisout">CHECK THIS OUT!</string>
+    <string name="shop_name">Gin Fish - Seafood restaurant</string>
+    <string name="shop_desc">Peoples choices both for the aesthetics of its elegant environment and for its up-to-date cocktail list which is frequently updated</string>
+    <string name="starofweek">STAR OF THE WEEK</string>
+    <string name="latestactivity">THE LATEST ACTIVITY</string>
+    <string name="map_key">AIzaSyD-UcPjeaLlJB9R1w8q3N4AM631u0JXODM</string>
+    <string name="closest_beach">THE CLOSEST BEACH TO YOUR LOCATION :</string>
 </resources>
